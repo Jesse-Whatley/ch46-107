@@ -1,0 +1,18 @@
+in python you dont have to use the (let,var,const) or the (;) at the end of variable 
+only have to write the variable and the value for the variable
+(#) is how you make comments in python
+
+varname = 2
+varstring = "jesse"
+variable = " "
+varname = True
+
+JavaScript is only language that can concatinate anything together (strings, numbers, booleans)
+
+Python you have specify what you want to concatinate (strings, intigers)
+
+Arrays in paython are called lists
+    colors = ["red", "green", "blue"]
+    print(colors)
+    colors.append("yellow")
+    print(colors)
