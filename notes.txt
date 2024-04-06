@@ -11,8 +11,9 @@ JavaScript is only language that can concatinate anything together (strings, num
 
 Python you have specify what you want to concatinate (strings, intigers)
 
-Arrays in paython are called lists
+Arrays in python are called lists
     colors = ["red", "green", "blue"]
     print(colors)
     colors.append("yellow")
     print(colors)
+
