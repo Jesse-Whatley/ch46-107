@@ -1,0 +1,24 @@
+To access virtual enviroment in terminal type cd (drag and drop folder into terminal)
+To upgrade the virtual enviroment use 
+    update: py -m pip install --upgrade pip
+
+To create a virtual enviroment we need to 
+    install: py -m pip install virtualenv
+Now that we have found the virtual enviroment libary, we want to create a virtual enviroment
+    py -m venv (name of a folder)
+Now we need to activate the virtual enviroment 
+    mac users: source venv/bin/activate
+    window users: venv\Scripts\activate
+***REMEMBER YOU NEED TO LOCATED IN THE FOLDER OF THE PROJECT***\
+
+Install flask in venv
+    py -m pip install flask
+How to check the flask version
+    flask --version
+
+Flask creates a API ==> establishes a connection between computer and server
+
+Creating a API (Application Programming Interface)
+You have to import flask libary (from flask import Flask)
+Create a application 
+    app = Flask(__name__) this means getting the name from root of the project 
