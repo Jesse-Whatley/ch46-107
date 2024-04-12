@@ -22,3 +22,7 @@ Creating a API (Application Programming Interface)
 You have to import flask libary (from flask import Flask)
 Create a application 
     app = Flask(__name__) this means getting the name from root of the project 
+
+SRP ==> single responsibility priciple
+
+Clean Code Rules: https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29
