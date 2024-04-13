@@ -26,3 +26,22 @@ Create a application
 SRP ==> single responsibility priciple
 
 Clean Code Rules: https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29
+
+SQL ==> you manage the database ==> is its own seperate language ==> deals with logic ==> NEED TO DO RESEARCH
+
+DBMS ==> database managment system 
+
+MongoDB ==> establish connection with database using python ==> https://www.mongodb.com/
+
+MongoDB ==> username: Jesse ==> password: Letssmoke1!!
+
+Need to establish connection: 
+    * create new folder called config.py
+    * import pymongo
+    * import certifi (after install) ==> you add certifi at the end of the install of the database (ex: py -m pip install "pymongo[srv]" certifi)
+    * add the connection string (ex: con_str = "mongodb+srv://Jesse:Letssmoke1!!@107-ch46.0kayhxj.mongodb.net/?retryWrites=true&w=majority&appName=107-ch46") 
+    * connect client to database (ex: client = pymongo.MongoClient(con_str,tlsCAfile=certifi.where()))
+    * connect client to database2 (ex: db = client.get_database("name_of_database"))
+
+
+
