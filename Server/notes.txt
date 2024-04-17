@@ -44,4 +44,4 @@ Need to establish connection:
     * connect client to database2 (ex: db = client.get_database("name_of_database"))
 
 
-
+node.js ==> also installs NPM == node package manager
