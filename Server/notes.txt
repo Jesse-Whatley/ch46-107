@@ -45,3 +45,13 @@ Need to establish connection:
 
 
 node.js ==> also installs NPM == node package manager
+
+Rules:
+    - must have indents
+    - start and end with a {}
+    - must have a dictionary in these dictionary they start and end with {}
+    - must have a KEY with will be a string (ex: "name":)
+    - the value can be whatever (ex: "", 38, boolean)
+
+
+homework : formatting strings in python (f string)
